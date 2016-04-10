@@ -16,7 +16,7 @@ footer {
  * My styles
  * --------------------------------------------------
  */
-col-xs-6, col-lg-4 {
+.col-xs-6, .col-lg-4 {
   height: 250px;
 }
 
