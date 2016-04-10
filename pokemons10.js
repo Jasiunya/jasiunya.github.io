@@ -26,7 +26,7 @@ var xmlhttp;
       nextOffset += 12;
       document.getElementById("load_more").innerHTML = '<button type="button" onclick="loadXMLDoc(' + nextOffset + ')" class="load_more">Load more</button>';
       //loadMoreButton.onclick = function() {loadXMLDoc(nextOffset)};
-  };
+  }
   var requestUrl = "http://pokeapi.co/api/v1/pokemon/?limit=12";
   if (nextOffset !== 0){
     var requestUrl = "http://pokeapi.co/api/v1/pokemon/?limit=12&offset=" + nextOffset;
