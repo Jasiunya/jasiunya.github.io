@@ -19,7 +19,11 @@ footer {
 .col-xs-6, .col-lg-4 {
   height: 250px;
 }
-
+.load_more {
+  width:200px;
+  height:70px;
+  background-color:'blue';
+}
 
 /*
  * Off Canvas
