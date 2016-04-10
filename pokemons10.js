@@ -1,5 +1,6 @@
 var nextOffset = 0;
 var loadMoreButton;
+var offset = 0;
 
 //document.onLoad = function (){
 //  var loadMoreButton = document.getElementById("load_more");
