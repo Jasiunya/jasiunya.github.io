@@ -52,8 +52,11 @@ $( document ).ready(function() {
             }
             function myTypes(i) {
                 var out3 = "";
-                out3 = obj.types[i].name + " ";
+                var i;
+                for(i = 0; i < obj.types.length; i++) {
+                out3 += '<p><a class="btn btn-default" href="" role="button">' + obj.types[i].name + '</a></p>';
                 document.getElementById("id05").innerHTML = out3;
+                }
             }
             // document.getElementById("id02").innerHTML = out;
             id02.insertAdjacentHTML('beforeend', out);
