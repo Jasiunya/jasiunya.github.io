@@ -24,6 +24,7 @@ footer {
   height:70px;
   background-color:#35A6FF;
   margin:auto;
+  border-radius: 4px;
 }
 .attr {
   position: fixed;
