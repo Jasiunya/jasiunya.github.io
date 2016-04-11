@@ -53,9 +53,9 @@ $( document ).ready(function() {
                 var i;
                 for(i = 0; i < obj.types.length; i++) {
                     out3 = obj.types[i].name + " ";
+                    document.getElementById("id05").innerHTML = out3;
                 }
-    document.getElementById("id05").innerHTML = out3;
-}
+            }
             // document.getElementById("id02").innerHTML = out;
             id02.insertAdjacentHTML('beforeend', out);
             
