@@ -1,7 +1,7 @@
 var nextOffset =0;
 var loadMoreButton;
 var obj;
-var obj.types;
+var types;
 // var offset = 0;
 
 $( document ).ready(function() {
