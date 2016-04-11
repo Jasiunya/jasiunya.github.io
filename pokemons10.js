@@ -56,7 +56,6 @@ $( document ).ready(function() {
                 }
     document.getElementById("id04").innerHTML = out2;
 }
-}
             // document.getElementById("id02").innerHTML = out;
             id02.insertAdjacentHTML('beforeend', out);
             
