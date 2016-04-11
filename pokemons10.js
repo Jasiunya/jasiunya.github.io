@@ -59,7 +59,7 @@ $( document ).ready(function() {
                         }
                         xmlhttp.onreadystatechange = function() {
                             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                                obj = JSON.parse(xmlhttp.responseText);
+                                obj2 = JSON.parse(xmlhttp.responseText);
                                 myTypes(); 
                                 }
                         }
@@ -69,8 +69,8 @@ $( document ).ready(function() {
                 function myTypes() {
                     var out3 = "";
                     var i;
-                    for(i = 0; i < obj.types.length; i++) {
-                    out3 += '<p><a class="btn btn-default" href="" role="button">' + obj.types[i].name + '</a></p>';
+                    for(i = 0; i < obj2.types.length; i++) {
+                    out3 += '<p><a class="btn btn-default" href="" role="button">' + obj2.types[i].name + '</a></p>';
                     document.getElementById("id05").innerHTML = out3;
                     }
                 }
