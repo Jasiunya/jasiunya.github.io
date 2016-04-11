@@ -70,7 +70,7 @@ $( document ).ready(function() {
                     }
                     function myTypes() {
                         var out3 = "";
-                        var i;
+                        //var i;
                         for(i = 0; i < obj2.types.length; i++) {
                         out3 += '<p><a class="btn btn-default" href="" role="button">' + obj2.types[i].name + '</a></p>';
                         document.getElementById("id05").innerHTML = out3;
