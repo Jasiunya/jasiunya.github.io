@@ -25,6 +25,13 @@ footer {
   background-color:#35A6FF;
   margin:auto;
 }
+.attr {
+  position: fixed;
+  margin-left: 20px;
+}
+h1 {
+  text-align:center;
+}
 
 /*
  * Off Canvas
