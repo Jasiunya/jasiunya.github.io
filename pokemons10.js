@@ -46,6 +46,7 @@ $( document ).ready(function() {
         {
             for(var i = 0; i < obj.objects.length; i++) {
                 var obj2 = obj.types;
+                document.getElementById("id05").innerHTML = obj2;
                 var out3 = "";
                 myTypes(); 
                 function myTypes() {
@@ -53,7 +54,7 @@ $( document ).ready(function() {
                         var i;
                         for(i = 0; i < obj2.types.length; i++) {
                             out3 += '<p><a class="btn btn-default" href="" role="button">' + obj2.types[i].name + '</a></p>';
-                            document.getElementById("id05").innerHTML = obj2;
+                            //document.getElementById("id05").innerHTML = obj2;
                         }
                     }
                 }
