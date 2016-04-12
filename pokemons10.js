@@ -46,10 +46,10 @@ $( document ).ready(function() {
         {
             for(var i = 0; i < obj.objects.length; i++) {
                 var obj2 = obj.types;
+                var out3 = "";
                 myTypes(); 
                 function myTypes() {
                     if(obj2 != undefined) {
-                        var out3 = "";
                         var i;
                         for(i = 0; i < obj2.types.length; i++) {
                             out3 += '<p><a class="btn btn-default" href="" role="button">' + obj2.types[i].name + '</a></p>';
