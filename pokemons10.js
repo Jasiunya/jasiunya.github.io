@@ -45,7 +45,7 @@ $( document ).ready(function() {
         if(obj != undefined)
         {
             for(var i = 0; i < obj.objects.length; i++) {
-                var obj2 = obj.types;
+                var obj2 = obj.objects.types;
                 document.getElementById("id05").innerHTML = obj2;
                 var out3 = "";
                 myTypes(); 
