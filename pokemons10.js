@@ -46,7 +46,7 @@ $( document ).ready(function() {
         {
             for(var i = 0; i < obj.objects.length; i++) {
                 //let { types: [name, item2] } = options;
-                let {types: {name : typeName, resource_uri : typeUrl}}=obj;
+                let {types: {name : typeName}}=obj;
                 //var obj2 = obj.objects.types;
                 document.getElementById("id05").innerHTML = typeName;
                 var out3 = "";
