@@ -45,8 +45,10 @@ $( document ).ready(function() {
         if(obj != undefined)
         {
             for(var i = 0; i < obj.objects.length; i++) {
-                var obj2 = obj.objects.types;
-                document.getElementById("id05").innerHTML = obj2;
+                let { types: [name, item2] } = options;
+                let {types: [{name : typeName, resource_uri : typeUrl}]}=obj;
+                //var obj2 = obj.objects.types;
+                document.getElementById("id05").innerHTML = typeName;
                 var out3 = "";
                 myTypes(); 
                 function myTypes() {
